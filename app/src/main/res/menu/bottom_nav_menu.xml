@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_chat"
+        android:title="챗봇QA"
+        android:icon="@drawable/ic_chatbot" />
+    <item
+        android:id="@+id/navigation_news"
+        android:title="뉴스"
+        android:icon="@drawable/ic_news"/>
+    <item
+        android:id="@+id/navigation_home"
+        android:title="홈"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/navigation_ship"
+        android:title="스마트해상물류란?"
+        android:icon="@drawable/ic_ship"/>
+    <item
+        android:id="@+id/navigation_mypage"
+        android:title="마이페이지"
+        android:icon="@drawable/ic_mypage"/>
+</menu>

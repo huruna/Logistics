@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/newsFragmentView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnAll"
+                android:layout_marginStart="8dp"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/tab_rounded_button"
+                android:textColor="@drawable/text_color_selector"
+                android:text="전체"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEnvironment"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/tab_rounded_button"
+                android:textColor="@drawable/text_color_selector"
+                android:text="환경"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPort"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/tab_rounded_button"
+                android:textColor="@drawable/text_color_selector"
+                android:text="항만"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnShip"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/tab_rounded_button"
+                android:textColor="@drawable/text_color_selector"
+                android:text="선박"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnLogistics"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/tab_rounded_button"
+                android:textColor="@drawable/text_color_selector"
+                android:text="물류" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnInternational"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/tab_rounded_button"
+                android:textColor="@drawable/text_color_selector"
+                android:text="국제"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/newsRecyclerView"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
